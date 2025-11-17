@@ -15,8 +15,8 @@ const navConfig: navItem[] = [
 		link: "/docs/components/",
 	},
 	{
-		text: "Get Pathfinder",
-		link: "https://cosmicthemes.com/themes/pathfinder",
+		text: "See Interactive Chapbook",
+		link: "https://victorkane.com",
 		newTab: true,
 	},
 ];
