@@ -9,6 +9,20 @@
 	Configure your Tailwind theme that will be used by Starlight.
 	https://starlight.astro.build/guides/css-and-tailwind/#styling-starlight-with-tailwind
 	*/
+	/* Generated accent color palettes. */
+	--color-accent-200: #85d5f5;
+	--color-accent-600: #007493;
+	--color-accent-900: #003849;
+	--color-accent-950: #002836;
+	/* Generated gray color palettes. */
+	--color-gray-100: #eff8ff;
+	--color-gray-200: #dff0ff;
+	--color-gray-300: #a8c6df;
+	--color-gray-400: #5592c1;
+	--color-gray-500: #1d5d89;
+	--color-gray-700: #003c5f;
+	--color-gray-800: #002944;
+	--color-gray-900: #021a2c;
 }
 
 /*

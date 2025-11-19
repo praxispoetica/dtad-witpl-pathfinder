@@ -25,7 +25,7 @@ export default defineConfig({
 			logo: {
         		src: './src/assets/vk-180x180.jpg',
       		},
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/praxispoetica/dtad-witpl' }],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/praxispoetica/dtad-witpl' }, {icon: 'blueSky', label: 'Bluesky', href: 'https://bsky.app/profile/vokapelman.bsky.social'} ],
 			sidebar: [
 				{
 					label: 'Guides',
