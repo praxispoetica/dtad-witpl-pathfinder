@@ -1,0 +1,31 @@
+---
+title: about v. o. kapelman
+description: About v. o. kapelman
+template: splash # Remove or comment out this line to display the site sidebar on this page.
+---
+
+v. o. kapelman was born and raised in London, England and dutifully ran around the lakes at Hampstead Heath in grey vest and running shorts with his classmates.
+
+Born and raised in San Diego at the age of 12 and in Los Angeles at the age of 16 and in New York at the age of 21, where he arrived on a motorbike dressed in gray jeans and parked a couple blocks from Columbia University in what was gonna be ’68. 
+
+Moving right along and skipping a bit here and there (his first novel to be published in this space, in serial form, starting December 2, 2025 (7 parts, one published every 10 days or so, which once completed will remain as the community edition)); he was born and raised in Buenos Aires at the age of 27, where he headed workshops and classes in English Language Learning, and his eyes and mind were opened wide by the literary workshops there and the activists that populated them.
+
+Still is. 
+
+And he’s been writing all the time.  
+
+Now he’s looking to publish what he’s written.  
+  
+Then he’s looking to publish what he’s writing.  
+  
+And he’s seeing about writing and publishing as a practice. Sort of like a legal practice. Or a medical practice.  But no, as a writing practice.  
+  
+v. o. kapelman is excited and eager to let you know what that will look like. 
+
+Then he’ll know and be in the thick of it. 
+
+Hoping we’re all in this together.
+
+Read on!
+
+Right on!
