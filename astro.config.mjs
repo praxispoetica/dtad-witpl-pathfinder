@@ -52,12 +52,17 @@ export default defineConfig({
 							'works/poetry/poetry'
 						],
           			},
-        		]),
+        		],
+				{
+					exclude: ['/blog', '/blog/**/*'], 
+				}
+				),
 				starlightBlog({
 					title: 'v. o. kapelman blog',
 					authors: {
 						vokapelman: {
 							name: 'v. o. kapelman',
+							title: 'Author of `Denying The Amerikan Dream. Wandering into the Promised Land`',
 							url: 'https://vokapelman.com',
 							picture: './src/assets/vk-180x180.jpg',
 						},
