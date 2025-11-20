@@ -3,6 +3,7 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import tailwindcss from '@tailwindcss/vite';
 import starlightBlog from 'starlight-blog';
+import starlightSidebarTopics from 'starlight-sidebar-topics'
 
 // https://astro.build/config
 export default defineConfig({
@@ -27,6 +28,26 @@ export default defineConfig({
         		src: './src/assets/vk-180x180.jpg',
       		},
 			plugins: [
+		        starlightSidebarTopics([
+     				{
+            			label: 'Guides',
+            			link: '/guides/example',
+            			icon: 'open-book',
+            			items: ['guides/example'],
+          			},
+          			{
+            			label: 'Reference',
+            			link: '/reference/example',
+            			icon: 'information',
+            			items: ['reference/example'],
+          			},
+					{
+						label: 'vokapelman Blog',
+						link: '/blog',
+						icon: 'pencil',
+						items: ['blog/blog-post-20251119'],
+					},
+        		]),
 				starlightBlog({
 					title: 'v. o. kapelman blog',
 					authors: {
@@ -43,7 +64,7 @@ export default defineConfig({
 					recentPostCount: 10,
               		postCount: 15,
 				}),
-			],
+      		],
 			components: {
 				Footer: './src/components/ThinFooter.astro',
 	  		},
@@ -53,19 +74,6 @@ export default defineConfig({
 				{icon: 'blueSky', label: 'Bluesky', href: 'https://bsky.app/profile/vokapelman.bsky.social'},
 				{icon: 'substack', label: 'Substack', href: 'https://vokapelman.substack.com'},
 				{icon: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/in/victorkane' },
-			],
-			sidebar: [
-				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
 			],
 			customCss: ['./src/styles/global.css'],
 		}),
