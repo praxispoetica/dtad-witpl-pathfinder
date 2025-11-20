@@ -43,18 +43,19 @@ export default defineConfig({
 					},
      				{
             			label: 'Works',
-            			link: '/works/works',
-            			icon: 'open-book',
-            			items: [
-							'works/novels/novels',
-							'works/short-stories/short-stories',
-							'works/flash-fiction/flash-fiction',
-							'works/poetry/poetry'
+						link: '/works/works',
+						icon: 'open-book',
+						items: [
+							{ label: 'Read on!', items: ['works/works']},
+							{ label: 'Novels', autogenerate: { directory: 'works/novels' }},
+							{ label: 'Poetry', autogenerate: { directory: 'works/poetry' }},
+							{ label: 'Short Stories', autogenerate: { directory: 'works/short-stories' }},
+							{ label: 'Flash Fiction', autogenerate: { directory: 'works/flash-fiction' }},
 						],
           			},
         		],
 				{
-					exclude: ['/blog', '/blog/**/*'], 
+					exclude: ['/blog', '/blog/**/*', '/works/short-stories', '/works/short-stories/**/*', '/works/flash-fiction', '/works/flash-fiction/**/*', '/works/poetry', '/works/poetry/**/*', '/works/novels', '/works/novels/**/*'], 
 				}
 				),
 				starlightBlog({
