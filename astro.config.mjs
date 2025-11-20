@@ -42,16 +42,15 @@ export default defineConfig({
 						items: ['blog/blog-post-20251119'],
 					},
      				{
-            			label: 'Guides',
-            			link: '/guides/example',
+            			label: 'Works',
+            			link: '/works/works',
             			icon: 'open-book',
-            			items: ['guides/example'],
-          			},
-          			{
-            			label: 'Reference',
-            			link: '/reference/example',
-            			icon: 'information',
-            			items: ['reference/example'],
+            			items: [
+							'works/novels/novels',
+							'works/short-stories/short-stories',
+							'works/flash-fiction/flash-fiction',
+							'works/poetry/poetry'
+						],
           			},
         		]),
 				starlightBlog({
