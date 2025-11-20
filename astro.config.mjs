@@ -29,7 +29,12 @@ export default defineConfig({
 				Footer: './src/components/ThinFooter.astro',
 	  		},
 			description: 'v. o. kapelman personal website and blog',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/praxispoetica/dtad-witpl' }, {icon: 'blueSky', label: 'Bluesky', href: 'https://bsky.app/profile/vokapelman.bsky.social'} ],
+			social: [
+				{icon: 'github', label: 'GitHub', href: 'https://github.com/praxispoetica/dtad-witpl' },
+				{icon: 'blueSky', label: 'Bluesky', href: 'https://bsky.app/profile/vokapelman.bsky.social'},
+				{icon: 'substack', label: 'Substack', href: 'https://vokapelman.substack.com'},
+				{icon: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/in/victorkane' },
+			],
 			sidebar: [
 				{
 					label: 'Guides',
