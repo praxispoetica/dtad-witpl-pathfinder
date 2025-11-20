@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import tailwindcss from '@tailwindcss/vite';
+import starlightBlog from 'starlight-blog';
 
 // https://astro.build/config
 export default defineConfig({
@@ -25,6 +26,20 @@ export default defineConfig({
 			logo: {
         		src: './src/assets/vk-180x180.jpg',
       		},
+			plugins: [
+				starlightBlog({
+					title: 'v. o. kapelman blog',
+					authors: {
+						vokapelman: {
+							name: 'v. o. kapelman',
+							url: 'https://vokapelman.com',
+							picture: 'src/assets/vk-180x180.jpg',
+							readingTime: true,
+							words: true,
+						},
+					}
+				})
+			],
 			components: {
 				Footer: './src/components/ThinFooter.astro',
 	  		},
