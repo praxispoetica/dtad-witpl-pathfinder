@@ -44,6 +44,25 @@ Community edition to be published in serial form:
 
 - My stunningly formative experience in the Alberto Mediza Poetry Workshop (early 1970s)
 
+## Content Copyright
+
+© 2025 Victor Opas Kane. All rights reserved except as stated in the following. These works by v. o. kapelman are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).
+
+🆓 You are free to share all content non-commercially, as long as you credit the author and link back to the online source.
+
+✍️ Attribution: “v. o. kapelman, author of Denying the Amerikan Dream”
+
+🔗 Source (example): https://vokapelman.com/works/novels/dtad-witpl/dtad-witpl/
+
+🌍 Permission is granted to publish faithful translations of this work, with appropriate attribution and a link to the original source.
+
+🏫 Permission is granted for creating adaptions with appropriate attribution, in the context of any educational, non-commercial activity (schools, libraries and literary workshops).
+
+💡 Want the full collection? Download the collection here: 👉(Free and paid author support subscriptions to be made available... link soon...)
+
+🖨️ A premium print & eBook edition is available for purchase: 👉 (Premium Collection to be published... link soon...)
+
+
 ## Development
 
 - [Astro Web Framework](https://astro.build/)
