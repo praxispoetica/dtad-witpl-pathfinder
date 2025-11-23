@@ -7,3 +7,5 @@ description: Novel by v. o. kapelman
 ## Wandering Into the Promised Land
 
 ### Who Promised What to Who, Now?
+
+> Part I will be here on December 2, 2025
